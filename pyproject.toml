@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "youtube summary app"
+version = "0.1.0"
+description = "app that summarizes youtube video from the subtitles"
+authors = ["Adem_B <96060273+ademb2@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-api-python-client = "^2.147.0"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+oauth2client = "^4.1.3"
+youtube-transcript-api = "^0.6.2"
+transformers = "^4.45.1"
+langchain = "^0.3.1"
+langchain-google-vertexai = "^2.0.3"
+google-cloud-aiplatform = "^1.69.0"
+langchain-google-genai = "^2.0.0"
+pandas = "^2.2.3"
+langchain-community = "^0.3.1"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

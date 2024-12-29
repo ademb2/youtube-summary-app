@@ -1,7 +1,28 @@
-YouTube Video Summarizer with LLM Assistance
 📖 Project Overview
+Why This Project?
 
-This project automates the process of summarizing YouTube videos using a combination of transcript extraction and an advanced language model (Google LLM Gemini). It generates concise, Markdown-formatted summaries tailored for note-taking purposes. The goal is to assist users in capturing the most important information from videos, saving time, and making it easier to organize personal notes.
+YouTube videos are a significant part of my knowledge consumption, offering invaluable insights across various topics. However, the sheer volume of information makes it difficult to retain key points over time. Taking notes manually isn't always feasible due to time constraints, leaving much of the content underutilized or forgotten.
+
+This project aims to bridge that gap by automating the summarization process, providing concise, high-quality drafts of YouTube video content. These summaries can either be used directly or refined further to suit personal needs, making knowledge retention and note organization seamless.
+The Problem
+
+Watching videos often serves different purposes—learning a new skill, staying updated, or exploring a topic in-depth. Current tools fail to adapt their summaries to the diverse intent behind watching each video. They also rarely integrate with note-taking apps, leaving users with a disconnected workflow.
+
+Specific challenges include:
+
+    Time Constraints: Taking notes during or after watching videos is often impractical.
+    Content Adaptability: Summaries must be tailored to the video's purpose, whether educational, tutorial-based, or news-oriented.
+    Note Integration: Summaries should align with personal workflows, including Markdown formatting, relevant tags, and meaningful titles derived from content rather than clickbait YouTube titles.
+
+The Approach
+
+This project combines:
+
+    Transcript Extraction: Retrieving transcripts from YouTube videos, including automatically generated subtitles.
+    Advanced Summarization with LLMs: Using Google LLM Gemini to generate summaries tailored to the video's intent and structure.
+    Seamless Note Integration: Producing Markdown-formatted outputs with essential properties (tags, content-based titles, and timestamps) for easy integration into note-taking systems.
+
+The result is an adaptable, efficient solution that helps capture the essence of video content, enhancing knowledge retention and making note-taking faster and more effective.
 
 Although there are existing tools for summarization, this project focuses on creating summaries that are adaptable to different video types and personal use cases.
 ✨ Features

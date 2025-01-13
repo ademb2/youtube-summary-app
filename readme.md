@@ -1,7 +1,7 @@
 📖 Project Overview
 Why This Project?
 
-YouTube videos are a significant part of my knowledge consumption, offering invaluable insights across various topics. However, the sheer volume of information makes it difficult to retain key points over time. Taking notes manually isn't always feasible due to time constraints, leaving much of the content underutilized or forgotten.
+YouTube videos are a significant part of my knowledge consumption, offering invaluable insights across various topics. However, the sheer volume of information makes it difficult to retain key points over time. Taking notes manually isn't always feasible due to time constraints and context in which it's consumed, leaving much of the content underutilized or forgotten.
 
 This project aims to bridge that gap by automating the summarization process, providing concise, high-quality drafts of YouTube video content. These summaries can either be used directly or refined further to suit personal needs, making knowledge retention and note organization seamless.
 The Problem
@@ -10,9 +10,9 @@ Watching videos often serves different purposes—learning a new skill, staying 
 
 Specific challenges include:
 
-    Time Constraints: Taking notes during or after watching videos is often impractical.
-    Content Adaptability: Summaries must be tailored to the video's purpose, whether educational, tutorial-based, or news-oriented.
-    Note Integration: Summaries should align with personal workflows, including Markdown formatting, relevant tags, and meaningful titles derived from content rather than clickbait YouTube titles.
+- Time Constraints: Taking notes during or after watching videos is often impractical.
+- Content Adaptability: Summaries must be tailored to the video's purpose, whether educational, tutorial-based, or news-oriented.
+- Note Integration: Summaries should align with personal workflows, including Markdown formatting, relevant tags, and meaningful titles derived from content rather than clickbait YouTube titles.
 
 The Approach
 
@@ -24,26 +24,26 @@ This project combines:
 
 The result is an adaptable, efficient solution that helps capture the essence of video content, enhancing knowledge retention and making note-taking faster and more effective.
 
-Although there are existing tools for summarization, this project focuses on creating summaries that are adaptable to different video types and personal use cases.
+
 ✨ Features
 
-    Transcript Extraction: Automatically retrieves video transcripts, including automatically generated YouTube subtitles.
-    Language Model Integration: Summarizes the transcripts using Google LLM Gemini (might add possibility of using other llm later)
-    Flexible Output: Generates JSON output containing:
-        The original transcript
-        A Markdown-formatted summary
-        Video metadata: title, language, and YouTube ID
-    Support for All YouTube URL Formats: Extracts the video ID seamlessly from various URL structures.
-    Adaptable Summaries: Designed for manual refinement to complement personal note-taking workflows.
+- Transcript Extraction: Automatically retrieves video transcripts, including automatically generated YouTube subtitles.
+- Language Model Integration: Summarizes the transcripts using Google LLM Gemini (might add possibility of using other llm later)
+- Flexible Output: Generates JSON output containing:
+    The original transcript
+    A Markdown-formatted summary
+    Video metadata: title, language, and YouTube ID
+- Support for All YouTube URL Formats: Extracts the video ID seamlessly from various URL structures.
+- Adaptable Summaries: Designed for manual refinement to complement personal note-taking workflows.
 
 🚀 Future Plans
 
 This project is in its early stages, but here are planned features:
 
-    API Development: Expose summarization functionality via a REST API.
-    Web Application: Build an interface for users to upload URLs, view summaries, and download outputs.
-    Database Integration: Store summaries, transcripts, and metadata for future reference.
-    Mobile App: Create an Android app for on-the-go summarization and note management.
+- API Development: Expose summarization functionality via a REST API.
+Web Application: Build an interface for users to upload URLs, view summaries, and download outputs.
+- Database Integration: Store summaries, transcripts, and metadata for future reference.
+- Mobile App: Create an Android app for on-the-go summarization and note management.
 
 ⚙️ Installation
 Prerequisites
